@@ -16,3 +16,5 @@
 @media(max-width:1150px){nav{gap:11px}.logo-caption{font-size:15px}.logo-image{width:70px;height:50px}}
 @media(max-width:850px){.use-grid{grid-template-columns:1fr}.use-grid article,.engineering-grid article{padding:25px}.budget{gap:25px}.status-grid>div{padding:25px}.comparison-table{padding-inline:18px}}
 @media(max-width:580px){.engineering-grid,.status-grid,.budget{grid-template-columns:1fr}.status-grid>div+div{border-left:0;border-top:1px solid var(--border)}.budget{padding:24px;gap:20px}.use-grid h3,.engineering-grid h3,.status-grid h3,.budget h3{font-size:19px}.faq-list summary{font-size:14px;padding-block:21px}.faq-list p{font-size:12px;padding-right:0}.logo-image,footer .logo-image{width:65px;height:45px}.comparison-table caption{font-size:13px}.comparison-table table{font-size:12px}}
+
+.site-name{font-size:24px;font-weight:700;letter-spacing:-1px;white-space:nowrap;flex-shrink:0}.site-name:hover{color:var(--accent)}footer .site-name{font-size:21px}
